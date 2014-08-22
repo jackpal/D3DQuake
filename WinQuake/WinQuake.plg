@@ -1,0 +1,257 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: winquake - Win32 D3D Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\release_d3d/winquake.res" /d "NDEBUG" "C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\winquake.rc"" 
+Creating temporary file "C:\DOCUME~1\jpalevic\LOCALS~1\Temp\RSPB9.tmp" with contents
+[
+/nologo /G5 /ML /GX /Ox /Ot /Oa /Og /Oi /Ob2 /I ".\dxsdk\sdk8\include" /D "NDEBUG" /D "GLQUAKE" /D "WIN32" /D "_WINDOWS" /D "NO_ASSEMBLY" /D "NO_MGRAPH" /D "D3DQUAKE" /FR".\release_d3d/" /Fp".\release_d3d/WinQuake.pch" /YX /Fo".\release_d3d/" /Fd".\release_d3d/" /FD /QIfist /c 
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\cd_win.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\chase.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\cl_demo.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\cl_input.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\cl_main.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\cl_parse.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\cl_tent.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\cmd.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\common.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\conproc.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\console.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\crc.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\cvar.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_draw.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_fakegl.cpp"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_mesh.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_model.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_refrag.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_rlight.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_rmain.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_rmisc.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_rsurf.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_screen.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_test.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_vidnt.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_warp.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\host.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\host_cmd.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\in_win.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\keys.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\mathlib.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\menu.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\net_dgrm.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\net_loop.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\net_main.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\net_vcr.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\net_win.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\net_wins.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\net_wipx.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\pr_cmds.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\pr_edict.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\pr_exec.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\r_part.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\sbar.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\snd_dma.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\snd_mem.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\snd_mix.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\snd_win.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\sv_main.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\sv_move.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\sv_phys.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\sv_user.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\sys_win.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\view.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\wad.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\world.c"
+"C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\zone.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\jpalevic\LOCALS~1\Temp\RSPB9.tmp" 
+Creating temporary file "C:\DOCUME~1\jpalevic\LOCALS~1\Temp\RSPBA.tmp" with contents
+[
+comctl32.lib .\dxsdk\sdk8\lib\dxguid.lib .\dxsdk\sdk8\lib\d3dx8.lib .\dxsdk\sdk8\lib\d3d8.lib .\dxsdk\sdk8\lib\ddraw.lib winmm.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:".\release_d3d/D3DQuake.pdb" /machine:I386 /out:".\release_d3d\D3DQuake.exe" 
+".\release_d3d\cd_win.obj"
+".\release_d3d\chase.obj"
+".\release_d3d\cl_demo.obj"
+".\release_d3d\cl_input.obj"
+".\release_d3d\cl_main.obj"
+".\release_d3d\cl_parse.obj"
+".\release_d3d\cl_tent.obj"
+".\release_d3d\cmd.obj"
+".\release_d3d\common.obj"
+".\release_d3d\conproc.obj"
+".\release_d3d\console.obj"
+".\release_d3d\crc.obj"
+".\release_d3d\cvar.obj"
+".\release_d3d\gl_draw.obj"
+".\release_d3d\gl_fakegl.obj"
+".\release_d3d\gl_mesh.obj"
+".\release_d3d\gl_model.obj"
+".\release_d3d\gl_refrag.obj"
+".\release_d3d\gl_rlight.obj"
+".\release_d3d\gl_rmain.obj"
+".\release_d3d\gl_rmisc.obj"
+".\release_d3d\gl_rsurf.obj"
+".\release_d3d\gl_screen.obj"
+".\release_d3d\gl_test.obj"
+".\release_d3d\gl_vidnt.obj"
+".\release_d3d\gl_warp.obj"
+".\release_d3d\host.obj"
+".\release_d3d\host_cmd.obj"
+".\release_d3d\in_win.obj"
+".\release_d3d\keys.obj"
+".\release_d3d\mathlib.obj"
+".\release_d3d\menu.obj"
+".\release_d3d\net_dgrm.obj"
+".\release_d3d\net_loop.obj"
+".\release_d3d\net_main.obj"
+".\release_d3d\net_vcr.obj"
+".\release_d3d\net_win.obj"
+".\release_d3d\net_wins.obj"
+".\release_d3d\net_wipx.obj"
+".\release_d3d\pr_cmds.obj"
+".\release_d3d\pr_edict.obj"
+".\release_d3d\pr_exec.obj"
+".\release_d3d\r_part.obj"
+".\release_d3d\sbar.obj"
+".\release_d3d\snd_dma.obj"
+".\release_d3d\snd_mem.obj"
+".\release_d3d\snd_mix.obj"
+".\release_d3d\snd_win.obj"
+".\release_d3d\sv_main.obj"
+".\release_d3d\sv_move.obj"
+".\release_d3d\sv_phys.obj"
+".\release_d3d\sv_user.obj"
+".\release_d3d\sys_win.obj"
+".\release_d3d\view.obj"
+".\release_d3d\wad.obj"
+".\release_d3d\world.obj"
+".\release_d3d\zone.obj"
+".\release_d3d\winquake.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\jpalevic\LOCALS~1\Temp\RSPBA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+cd_win.c
+chase.c
+cl_demo.c
+cl_input.c
+cl_main.c
+cl_parse.c
+cl_tent.c
+cmd.c
+common.c
+conproc.c
+console.c
+crc.c
+cvar.c
+gl_draw.c
+C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_draw.c(148) : warning C4715: 'Scrap_AllocBlock' : not all control paths return a value
+gl_fakegl.cpp
+gl_mesh.c
+gl_model.c
+gl_refrag.c
+gl_rlight.c
+gl_rmain.c
+gl_rmisc.c
+gl_rsurf.c
+C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\gl_rsurf.c(1448) : warning C4715: 'AllocBlock' : not all control paths return a value
+gl_screen.c
+gl_test.c
+gl_vidnt.c
+gl_warp.c
+host.c
+host_cmd.c
+in_win.c
+C:\Documents and Settings\jpalevic\Desktop\q1source\WinQuake\in_win.c(883) : warning C4715: 'RawValuePointer' : not all control paths return a value
+keys.c
+mathlib.c
+menu.c
+net_dgrm.c
+net_loop.c
+net_main.c
+net_vcr.c
+net_win.c
+net_wins.c
+net_wipx.c
+pr_cmds.c
+pr_edict.c
+pr_exec.c
+r_part.c
+sbar.c
+snd_dma.c
+snd_mem.c
+snd_mix.c
+snd_win.c
+sv_main.c
+sv_move.c
+sv_phys.c
+sv_user.c
+sys_win.c
+view.c
+wad.c
+world.c
+zone.c
+Linking...
+   Creating library .\release_d3d\D3DQuake.lib and object .\release_d3d\D3DQuake.exp
+LINK : warning LNK4049: locally defined symbol "_glTexParameterf@12" imported
+LINK : warning LNK4049: locally defined symbol "_glEnd@0" imported
+LINK : warning LNK4049: locally defined symbol "_glVertex2f@8" imported
+LINK : warning LNK4049: locally defined symbol "_glTexCoord2f@8" imported
+LINK : warning LNK4049: locally defined symbol "_glBegin@4" imported
+LINK : warning LNK4049: locally defined symbol "_glColor4f@16" imported
+LINK : warning LNK4049: locally defined symbol "_glEnable@4" imported
+LINK : warning LNK4049: locally defined symbol "_glDisable@4" imported
+LINK : warning LNK4049: locally defined symbol "_glColor3f@12" imported
+LINK : warning LNK4049: locally defined symbol "_glTexImage2D@36" imported
+LINK : warning LNK4049: locally defined symbol "_glDrawBuffer@4" imported
+LINK : warning LNK4049: locally defined symbol "_glOrtho@48" imported
+LINK : warning LNK4049: locally defined symbol "_glLoadIdentity@0" imported
+LINK : warning LNK4049: locally defined symbol "_glMatrixMode@4" imported
+LINK : warning LNK4049: locally defined symbol "_glViewport@16" imported
+LINK : warning LNK4049: locally defined symbol "_glVertex3fv@4" imported
+LINK : warning LNK4049: locally defined symbol "_glBlendFunc@8" imported
+LINK : warning LNK4049: locally defined symbol "_glShadeModel@4" imported
+LINK : warning LNK4049: locally defined symbol "_glDepthMask@4" imported
+LINK : warning LNK4049: locally defined symbol "_glRotatef@16" imported
+LINK : warning LNK4049: locally defined symbol "_glTranslatef@12" imported
+LINK : warning LNK4049: locally defined symbol "_glVertex3f@12" imported
+LINK : warning LNK4049: locally defined symbol "_glPopMatrix@0" imported
+LINK : warning LNK4049: locally defined symbol "_glHint@8" imported
+LINK : warning LNK4049: locally defined symbol "_glTexEnvf@12" imported
+LINK : warning LNK4049: locally defined symbol "_glScalef@12" imported
+LINK : warning LNK4049: locally defined symbol "_glPushMatrix@0" imported
+LINK : warning LNK4049: locally defined symbol "_glDepthRange@16" imported
+LINK : warning LNK4049: locally defined symbol "_glColor4fv@4" imported
+LINK : warning LNK4049: locally defined symbol "_glFrustum@48" imported
+LINK : warning LNK4049: locally defined symbol "_glGetFloatv@8" imported
+LINK : warning LNK4049: locally defined symbol "_glCullFace@4" imported
+LINK : warning LNK4049: locally defined symbol "_glDepthFunc@4" imported
+LINK : warning LNK4049: locally defined symbol "_glClear@4" imported
+LINK : warning LNK4049: locally defined symbol "_glLoadMatrixf@4" imported
+LINK : warning LNK4049: locally defined symbol "_glFinish@0" imported
+LINK : warning LNK4049: locally defined symbol "_glReadPixels@28" imported
+LINK : warning LNK4049: locally defined symbol "_glReadBuffer@4" imported
+LINK : warning LNK4049: locally defined symbol "_glTexSubImage2D@36" imported
+LINK : warning LNK4049: locally defined symbol "_wglGetProcAddress@4" imported
+LINK : warning LNK4049: locally defined symbol "_glGetString@4" imported
+LINK : warning LNK4049: locally defined symbol "_glPolygonMode@8" imported
+LINK : warning LNK4049: locally defined symbol "_glAlphaFunc@8" imported
+LINK : warning LNK4049: locally defined symbol "_glClearColor@16" imported
+LINK : warning LNK4049: locally defined symbol "_wglDeleteContext@4" imported
+LINK : warning LNK4049: locally defined symbol "_wglMakeCurrent@8" imported
+LINK : warning LNK4049: locally defined symbol "_wglGetCurrentDC@0" imported
+LINK : warning LNK4049: locally defined symbol "_wglGetCurrentContext@0" imported
+LINK : warning LNK4049: locally defined symbol "_wglCreateContext@4" imported
+LINK : warning LNK4049: locally defined symbol "_glColor3ubv@4" imported
+
+
+
+<h3>Results</h3>
+D3DQuake.exe - 0 error(s), 53 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>D3DQuake 0</title>
+</head>
+
+<body>
+
+<h1>D3DQuake 0.1 Release Notes</h1>
+<p>Jack Palevich, <a href="mailto:jack@palevich.com">jack@palevich.com</a></p>
+<h2>Introduction</h2>
+<p>D3DQuake is a modification of the id Software GLQuake version of the Quake
+1.09 engine. D3DQuake is just GLQuake modified to use Direct3D 7.0 instead of
+OpenGL.</p>
+<h2>Mini FAQ</h2>
+<p><b>Q:</b> What is D3DQuake?</p>
+<p><b>A:</b> D3DQuake is GLQuake modified to run on top of Direct3D 7.0 instead
+of OpenGL. GLQuake uses a fairly small (50 function) subset of OpenGL. It only
+took a few days to write Direct3D versions of these calls.</p>
+<p><b>Q:</b> Why did you do this?</p>
+<p><b>A:</b> Because I wanted to learn about Quake, and about Direct3D, and I
+thought it would be cool.</p>
+<p><b>Q:</b> In your day job you work for WebTV, which is a subsidiary of
+Microsoft. Don't you have an ulterior motive for doing this?</p>
+<p><b>A:</b> Sure! OpenGL is great, but DirectX deserves more respect that it
+currently gets.. One reason I wrote D3DQuake is that I wanted to see how well
+Direct3D compares to OpenGL in terms of ease-of-use and performance.</p>
+<p><b>Q:</b> So will D3DQuake work on any video card that supports Direct3D?</p>
+<p><b>A:</b> No. Right now the D3D card has to have DirectX 7 drivers, 8 MB of
+RAM and 32-bit textures. D3DQuake has&nbsp; only been tested on Windows 2000
+with the NVIDIA TNT2 and the NVIDIA GeForce256.</p>
+<h2>Known Bugs / Limitations</h2>
+<ul>
+  <li>Does not use multitexturing.</li>
+  <li>Requires 32 bpp textures.</li>
+  <li>Uses 32 bpp textures for light maps.</li>
+</ul>
+<h2>Code Notes</h2>
+<p>All the Direct3D-specific code is in the file gl_fakegl.cpp. In addition, I
+had to make a few small changes to the main sources. These patches are #ifdef'd
+using the preprocessor symbol D3DQUAKE. Presumably, you could merge this code
+base with any of the other modifications to GLQuake, and it would still work.
+The only caveat is that if the other modification uses some new feature of
+OpenGL, you'd have to add support for that new feature.</p>
+<p>If you look at the source code for gl_fakegl.cpp, you'll see that it's all
+pretty straightforward. For the most part, each of the OpenGL calls that Quake
+uses has a corresponding D3D call. All I had to do was convert the arguments.</p>
+<p>To compile, open the WinQuake project in Visual Studio 6.0 or later. Choose
+either the &quot;Win32 D3D Release&quot; or the Win32 D3D Debug&quot;
+configuration. Build. The resulting executable can be used the same way as
+GLQuake.exe.</p>
+<h2>Future Work</h2>
+<ul>
+  <li>Enable multitexturing.</li>
+  <li>Fix the TextureTable implementation to look up textures more quickly.
+    Right now it's O(n) It should be a hash table or a sparse array.</li>
+  <li>Do some performance comparisons with OpenGL, and fix any performance
+    bottlenecks.</li>
+</ul>
+<h2>Acknowledgements</h2>
+<p>I'd like to thank id Software, especially John Carmack, for releasing the
+sources to Quake. And I'd like to thank the members of the DIRECTXDEV mailing
+list for answering my questions.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>
